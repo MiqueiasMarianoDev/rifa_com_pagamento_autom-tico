@@ -1,0 +1,90 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 96%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #555;
+  }
+  
+  button[type="button"] {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #333;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+  }
+  
+  .btn-lg {
+    font-size: 24px;
+  }
+  
+  .btn-block {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #generated-number-label {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  #generated-number {
+    font-size: 48px;
+    font-weight: bold;
+    color: #28a745;
+    text-align: center;
+  }
+  
