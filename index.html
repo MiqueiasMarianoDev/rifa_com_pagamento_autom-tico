@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Números Aleatórios</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Adiciona os estilos do Bootstrap -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" integrity="sha512-x/5/L9j/9PQoC36ztDf5ZoHE5g5EX3q5CtIzzH4yKl1Xg4hhGLB7mkzRmOeBUkJfB9XJtdGumOUkzoiWwZpESw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Adiciona o jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-HaIBY7E+CQnupkgW7AwrZOvFJp1kYSXXLgEjN6FNOvYT9EzUksdQRVgFJw8Q+Nh2" crossorigin="anonymous"></script>
+
+  <!-- Adiciona o JavaScript do Bootstrap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.bundle.min.js" integrity="sha512-pVKgQLE0QNSKF7VcqkMbrFZ59VNFoeCkE/TyR8lxv9X9dCtyt4a4lNgH8n3qG5f5mvooPQo5UIfD+cPijX9ccQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Gerador de Números Aleatórios</h1>
+
+    <div class="row">
+
+      <div class="col-md-6">
+        <button type="button" id="generate-number-btn" class="btn btn-primary btn-lg btn-block">Gerar Número</button>
+      </div>
+
+      <div class="col-md-6">
+        <h2 id="generated-number-label" class="hidden">Número Gerado:</h2>
+        <div id="generated-number" class="hidden"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5">
+        <label for="input-number">Digite seu Pix:</label>
+        <input type="text" id="input-number" required>
+      </div>
+      <div class="col-md-6">
+        <button type="button" id="submit-number-btn" class="btn btn-success btn-lg btn-block">Validar Número</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
